@@ -1,0 +1,8 @@
+smbus
+smbus2
+RPi.bme280
+adafruit-mcp3008
+picamera
+requests
+python-dotenv
+google-api-python-client
