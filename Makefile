@@ -5,8 +5,6 @@ export
 
 SRC_DIR := $(dir $(abspath $(lastword $(MAKEFILE_LIST))))
 
-run: rsync remote_execute
-
 deploy: rsync install_deps patch_db
 
 install_deps:
